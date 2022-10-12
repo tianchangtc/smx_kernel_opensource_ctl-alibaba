@@ -1,0 +1,5 @@
+menuconfig SMX
+  tristate "SMX (Smart Memory Extension) Devices Support"
+  depends on CXL_BUS
+  help
+    SMX is a CXL device providing remote memory in a rack.
